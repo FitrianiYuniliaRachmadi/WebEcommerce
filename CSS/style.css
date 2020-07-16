@@ -1,0 +1,297 @@
+@charset "utf-8";
+.header {
+	background-image: url(../IMAGE/header1.png);
+	height: 260px;
+	width: 962px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.top-right ul li {
+    display: inline-block;
+    padding: 0em 1em;
+}
+.top-right ul li a {
+    font-size: 1em;
+    text-transform: capitalize;
+    color:#33C;
+    text-decoration: none;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	background: #FFF;
+	
+}
+.top-right ul li.text a {
+	color:#fff;
+}
+.top-right {
+    margin-left: 63em;
+	float: left;
+}
+
+.login-right ul li {
+    display: inline-block;
+    padding: 0em 1em;
+}
+.login-right ul li a {
+    font-size: 1em;
+    text-transform: capitalize;
+    color:#33C;
+    text-decoration: none;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	background: #FFF;
+	
+}
+.login-right ul li.text a {
+	color:#fff;
+}
+.login-right {
+    margin-left: 53em;
+	float: left;
+}
+
+.admin-right ul li {
+    display: inline-block;
+    padding: 0em 1em;
+}
+.admin-right ul li a {
+    font-size: 1em;
+    text-transform: capitalize;
+    color:#33c;
+    text-decoration: none;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	background: #FFF;
+	
+}
+.admin-right ul li.text a {
+	color:#fff;
+}
+.admin-right {
+    margin-left: 69em;
+	float: left;
+}
+
+
+#navbar {
+	background-color: #F3B9BA;
+	height: 40px;
+	width: 962px;
+	padding:10px 0;
+	margin-right: auto;
+	margin-left: auto;
+	list-style:none;
+}
+
+.navmenu {
+float:left;
+width:100%;
+padding:10px 0;
+background:#81D1BF;
+}
+.navmenu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navmenu li{
+	float:left;
+}
+.navmenu li a:link, .navmenu li a:active, .navmenu li a:visited{
+	text-decoration:none;
+	color:#fff;
+	padding:25px 25px;
+}
+
+.navmenu li:hover{
+	background:#666;
+}
+
+.dropmenu {
+    background: #81D1BF;
+    height: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+.dropmenu li {
+    
+    float: left;
+    height: 30px;
+}
+.dropmenu li a {
+    color: #fff;
+    display: block;
+    font: 12px arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+.dropmenu li:hover { background: #778899; position: relative; }
+.dropmenu li:hover a { text-decoration: underline; }
+.dropmenu li:hover ul {
+    background-color: #37f4a54;
+    border: 1px solid grey;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border: none; height: 18px; }
+.dropmenu li:hover ul li a {
+    background-color: #81D1BF;
+    border: 1px solid transparent;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.dropmenu li:hover ul li a:hover {
+    background: silver;
+    border: solid 1px #444;
+    color: #000;
+    height: 18px;
+    padding: 3px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
+
+
+
+/*--login--*/
+.login{
+	padding:6em 0;
+}
+.account-grids {
+    margin-top: 2em;
+}
+.main-agileits {
+    width: 30%;
+    margin: 0em auto ;
+	box-shadow: 0px 0px 15px 0px #333;
+	-o-box-shadow: 0px 0px 15px 0px #333;
+	-moz-box-shadow: 0px 0px 15px 0px #333;
+	-webkit-box-shadow: 0px 0px 15px 0px #333;
+	padding: 3em ;
+}
+
+.key  input[type="text"] ,.key  input[type="password"]{
+    width: 87%;
+    padding: 10px 10px;
+    font-size: 1em;
+    border: none;
+    border-bottom: none;
+    outline: none;
+    color: #03C;
+    float: left;
+    background: none;
+}
+.key i{
+	    float: left;
+    color: #03C;
+    font-size: 1.1em;
+    padding: 5px;
+}
+.key {
+	text-align: center;
+    border: 1px solid #FFF;
+    margin-bottom: 2em;
+}
+.form-w3agile h3{
+    color: #1565C0;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+h3.account-text{
+	color: #1565C0;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.account-grid h5 {
+    font-size: 1.5em;
+    color: #03C;
+    margin-bottom: 0.54em;
+}
+.form-w3agile input[type="submit"] {
+    background: #666;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    width: 32%;
+    cursor: pointer;
+    margin-bottom:30px;
+}
+.form-w3agile  input[type="submit"]:hover{
+	background:#F3B9BA;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.account-grid input[type="submit"] {
+    background: #F3B9BA;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    width: 32%;
+    cursor: pointer;
+    margin-bottom:30px;
+}
+.account-grid  input[type="submit"]:hover{
+	background:#03C;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.forg a {
+    text-decoration: none;
+    color: #006;
+    font-size:1em;
+}
+.forg a:hover{
+	color:#F89596;
+}
+.forg-left{
+	float:left;
+}
+.forg-right{
+	float:right;
+}
+.form1 input[type="submit"] {
+	margin-bottom:0;
+}
+/*--//login--*/
+
+#footer {
+	height: 88px;
+	width: 962px;
+	background-image: url(../IMAGE/cartoon-kids-header.png);
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #81D1BF;
+}
+.Area_Produk tr .Teks_Produk p {
+	font-family: Arial Black, Gadget, sans-serif;
+}
